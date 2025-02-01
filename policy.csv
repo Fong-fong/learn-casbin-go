@@ -1,0 +1,13 @@
+p, owner, management, invite, allow
+p, owner, management, edit_role, allow
+p, owner, event, create, allow
+p, owner, event, edit, allow
+p, owner, event, delete, allow
+p, moderator, event, create, allow
+p, moderator, event, edit, allow
+p, moderator, event, delete, allow
+g, user1, owner, org1
+g, user2, moderator, org1
+g, user1, moderator, org2
+g, user2, owner, org2
+g, user3, owner, org2
